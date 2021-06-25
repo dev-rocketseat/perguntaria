@@ -96,7 +96,7 @@ Tudo grafico sem muitos problemas
 - Select Vercel Scope (personal account)
 - informe o diretorio da aplicação e pronto aguarde o deploy
 - Provavelmente vc vai precisar editar o projeto e colocar suas variaveis de ambiente 
-![](vercel-enviro.png)
+![](vercel-enviro.png =250x)
 - Pronto por aqui é só isso 
 ![](vercel-deploy.png)
 
@@ -109,11 +109,11 @@ Basta ter uma conta na digital DigitalOcean e seguir esses passos
 - no menu lateral escolha opção Apps que esta marcada até hoje 25/06/2021 como new
 - click em create app
 - selecione o repositorio github >> projeto >> branch >> next 
-![](digital-projeto.png)
+![](digital-projeto.png =250x)
 - caso não aparece é o mesmo problema da vercel tem autorizar
 - no meu caso precisei escolher o diretorio por causa do devcontainer
 - defina suas variaveis de ambiente 
-![](digital-deploy.png)
+![](digital-deploy.png =250x)
 bom espero ter ajudado vocês bom trabalho
 
 - pacalexandre@gmail.com
