@@ -8,6 +8,8 @@ type QuestionProps = {
   };
   content: string
   children?: ReactNode
+  isAnswered?: boolean
+  isHighlighted?: boolean
 }
 
 export function Question({ 

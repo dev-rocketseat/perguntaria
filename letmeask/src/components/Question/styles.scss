@@ -36,6 +36,11 @@
       }
     }
 
+    > div {
+      display: flex;
+      gap: 16px;
+    }
+
     button {
       border: 0;
       background: transparent;
