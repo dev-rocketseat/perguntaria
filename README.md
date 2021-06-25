@@ -47,3 +47,41 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+# Deploy em varias plataformas
+## Instalando no firebase
+```
+# dentro do projeto 
+
+yarn global add firebase-tools
+
+# root ➜ /workspaces/perguntaria/letmeask (master) $ firebase init
+#
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+# You're about to initialize a Firebase project in this directory:
+
+firebase login
+
+#
+# Confirme a autenticação no google 
+#
+
+firebase init
+
+#? What do you want to use as your public directory? public
+#? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+#? Set up automatic builds and deploys with GitHub? No
+#? File public/index.html already exists. Overwrite? No
+#i  Skipping write of public/index.html
+
+firebase deploy
+
+
+```
