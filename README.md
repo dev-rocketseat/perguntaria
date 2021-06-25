@@ -82,7 +82,8 @@ firebase deploy
 Quem ainda não utilizou os serviços da vercel é uma "delicinha" 
 crie sua conta na vercel faça a autenticação pelo git hub para vc ter acesso 
 ao projetos q vc grava aqui !
-![](vercel.png)
+- ![](vercel.png)
+
 Tudo grafico sem muitos problemas 
 - Dashboard >> New Project
 - Import git Repository
@@ -90,9 +91,9 @@ Tudo grafico sem muitos problemas
      - acesse pelo github 
      - abra profile no avatar selecione settings
      - aplications >> Installed gitHub Apps >> configure
-     - ![](github-access.png)
+     - ![](github-access.png =150x)
      - selecione o repositorio para liberação ou deixe aparecer todos os repositorios 
-     - ![](github-repo.png)
+     - ![](github-repo.png  =150x)
 - Select Vercel Scope (personal account)
 - informe o diretorio da aplicação e pronto aguarde o deploy
 - Provavelmente vc vai precisar editar o projeto e colocar suas variaveis de ambiente 
