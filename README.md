@@ -92,15 +92,15 @@ Tudo grafico sem muitos problemas
      - acesse pelo github 
      - abra profile no avatar selecione settings
      - aplications >> Installed gitHub Apps >> configure
-     - ![](github-access.png =150x)
+     - ![](github-access.png=150x)
      - selecione o repositorio para liberação ou deixe aparecer todos os repositorios 
-     - ![](github-repo.png  =150x)
+     - ![](github-repo.png=150x)
 - Select Vercel Scope (personal account)
 - informe o diretorio da aplicação e pronto aguarde o deploy
 - Provavelmente vc vai precisar editar o projeto e colocar suas variaveis de ambiente 
-![](vercel-enviro.png =250x)
+![](vercel-enviro.png=250x)
 - Pronto por aqui é só isso 
-![](vercel-deploy.png)
+![](vercel-deploy.png=150x)
 
 
 ## Instalando na DigitalOcean
@@ -111,11 +111,11 @@ Basta ter uma conta na digital DigitalOcean e seguir esses passos
 - no menu lateral escolha opção Apps que esta marcada até hoje 25/06/2021 como new
 - click em create app
 - selecione o repositorio github >> projeto >> branch >> next 
-![](digital-projeto.png =250x)
+![](digital-projeto.png=250x)
 - caso não aparece é o mesmo problema da vercel tem autorizar
 - no meu caso precisei escolher o diretorio por causa do devcontainer
 - defina suas variaveis de ambiente 
-![](digital-deploy.png =250x)
+![](digital-deploy.png=250x)
 bom espero ter ajudado vocês bom trabalho
 
 - pacalexandre@gmail.com
