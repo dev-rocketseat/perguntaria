@@ -1,12 +1,14 @@
-import { useHistory, useParams } from "react-router-dom"
-import { UseRoom } from "../hooks/useRoom"
-import { database } from "../services/firebase"
+import { useHistory, useParams } from 'react-router-dom'
+import { UseRoom } from '../hooks/useRoom'
+import { database } from '../services/firebase'
 //Components
-import { Button } from "../components/Button"
-import { Question } from "../components/Question"
-import { RoomCode } from "../components/RoomCode"
+import { Button } from '../components/Button'
+import { Question } from '../components/Question'
+import { RoomCode } from '../components/RoomCode'
 // Assets
 import logoImg from '../assets/images/logo.svg'
+import checkImg from '../assets/images/check.svg'
+import answerImg from '../assets/images/answer.svg'
 import deleteImg from '../assets/images/delete.svg'
 import '../styles/room.scss'
 
@@ -35,10 +37,10 @@ export function AdminRoom() {
   }
 
   return (
-    <div id="page-room">
+    <div id='page-room'>
       <header>
-        <div className="content">
-          <img src={logoImg} alt="Perguntaria" />
+        <div className='content'>
+          <img src={logoImg} alt='Perguntaria' />
           <div>
           <RoomCode code={roomId} />
           <Button isOutlined onClick={()=>{
@@ -48,23 +50,35 @@ export function AdminRoom() {
         </div>
       </header>
       <main>
-        <div className="room-title">
+        <div className='room-title'>
           <h1>Treinamento: { title }</h1>
           {questions.length > 0 && <span>{questions.length} perguntas</span> }    
         </div>
-        <div className="question-list">
+        <div className='question-list'>
           {questions.map(question => {
             return (
               <Question
               key={question.id}
               content={question.content}
               author={question.author}
-              >
+               >
                 <button 
-                  type="button"
+                  type='button'
                   onClick={()=>{handleDeleteQuestion(question.id)}}
                   >
-                  <img src={deleteImg} alt="Apagar Mensagem" />
+                  <img src={checkImg} alt='Focar Mensagem' />
+                </button>
+                <button 
+                  type='button'
+                  onClick={()=>{handleDeleteQuestion(question.id)}}
+                  >
+                  <img src={answerImg} alt='Responder Mensagem' />
+                </button>
+                <button 
+                  type='button'
+                  onClick={()=>{handleDeleteQuestion(question.id)}}
+                  >
+                  <img src={deleteImg} alt='Apagar Mensagem' />
                 </button>
              </Question>
             )

@@ -1,41 +1,41 @@
-import { FormEvent, useState } from 'react'
-import { useHistory } from 'react-router-dom'
-import { database } from '../services/firebase'
-import { useAuth } from '../hooks/useAuth'
+import { FormEvent, useState } from 'react';
+import { useHistory } from 'react-router-dom';
+import { database } from '../services/firebase';
+import { useAuth } from '../hooks/useAuth';
 // Components
-import { Button } from '../components/Button'
+import { Button } from '../components/Button';
 // Assets
-import logoImg from '../assets/images/logo.svg'
-import illustrationImg from '../assets/images/illustration.svg'
-import googleIconImg from '../assets/images/google-icon.svg'
-import '../styles/auth.scss'
+import logoImg from '../assets/images/logo.svg';
+import illustrationImg from '../assets/images/illustration.svg';
+import googleIconImg from '../assets/images/google-icon.svg';
+import '../styles/auth.scss';
 
 export function Home(){
-  const history = useHistory()
-  const { user,signInWithGoogle } = useAuth()
-  const [roomCode, setRoomCode] = useState('')
+  const history = useHistory();
+  const { user,signInWithGoogle } = useAuth();
+  const [roomCode, setRoomCode] = useState('');
 
   async function handleCreateRoom() {
     if (!user) {
-      await signInWithGoogle()
+      await signInWithGoogle();
     }
-    history.push('/rooms/new')
+    history.push('/rooms/new');
   }
 
   async function handleJoinRoom(event: FormEvent) {
-    event.preventDefault()
+    event.preventDefault();
     if (roomCode.trim() === ''){
-      return
+      return;
     }
-    const roomRef = await database.ref(`rooms/${roomCode}`).get()
+    const roomRef = await database.ref(`rooms/${roomCode}`).get();
 
     if (!roomRef.exists()){
-      alert('Sala não existe')
-      return
+      alert('Sala não existe');
+      return;
     }
     
     if (roomRef.val().endedAt){
-      alert('Sala já encerrada')
+      alert('Sala já encerrada');
     } 
 
     history.push(`/rooms/${roomCode}`)
