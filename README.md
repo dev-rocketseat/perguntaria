@@ -41,7 +41,7 @@ Trilha 2 ReactJS projeto LetMeAsk
 Seguindo as orientações do Diego cria sua conta no Google 
 na verdade é so logar com sua conta !!!
  https://firebase.google.com/
- (firebase.png)
+ ![](firebase.png)
 ```
 # dentro do projeto 
 
