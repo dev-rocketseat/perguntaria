@@ -11,6 +11,7 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/react-router-dom": "^5.1.7",
+    "classnames": "^2.3.1",
     "eslint": "^7.29.0",
     "firebase": "^8.6.8",
     "node-sass": "^5.0.0",
