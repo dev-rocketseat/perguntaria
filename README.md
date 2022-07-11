@@ -1,4 +1,4 @@
-![](digital-letmeask.png)
+![](assets/digital-letmeask.png)
 
 # Create React App NLW - Rocketseat - com Diego Fernandes 
 [https://github.com/rocketseat-content](https://github.com/rocketseat-content)
@@ -43,7 +43,7 @@ Trilha 2 ReactJS projeto LetMeAsk
 Seguindo as orientações do Diego cria sua conta no Google 
 na verdade é so logar com sua conta !!!
  https://firebase.google.com/
- ![](firebase.png)
+ ![](assets/firebase.png)
 ```
 # dentro do projeto 
 
@@ -83,7 +83,7 @@ firebase deploy
 Quem ainda não utilizou os serviços da vercel é uma "delicinha" 
 crie sua conta na vercel faça a autenticação pelo git hub para vc ter acesso 
 ao projetos q vc grava aqui !
-- ![](vercel.png)
+- ![](assets/vercel.png)
 
 Tudo grafico sem muitos problemas 
 - Dashboard >> New Project
@@ -92,30 +92,30 @@ Tudo grafico sem muitos problemas
      - acesse pelo github 
      - abra profile no avatar selecione settings
      - aplications >> Installed gitHub Apps >> configure
-     - ![](github-access.png)
+     - ![](assets/github-access.png)
      - selecione o repositorio para liberação ou deixe aparecer todos os repositorios 
-     - ![](github-repo.png)
+     - ![](assets/github-repo.png)
 - Select Vercel Scope (personal account)
 - informe o diretorio da aplicação e pronto aguarde o deploy
 - Provavelmente vc vai precisar editar o projeto e colocar suas variaveis de ambiente 
-![](vercel-enviro.png)
+![](assets/vercel-enviro.png)
 - Pronto por aqui é só isso 
-![](vercel-deploy.png)
+![](assets/vercel-deploy.png)
 
 
 ## Instalando na DigitalOcean
 A digitalocean tambem tem hospedagem gratuita de projetos e auto identificou tudo
 Basta ter uma conta na digital DigitalOcean e seguir esses passos
-![](digitalocean.png)
+![](assets/digitalocean.png)
 - acesse sua conta eu uso google mas eles tem github tambem 
 - no menu lateral escolha opção Apps que esta marcada até hoje 25/06/2021 como new
 - click em create app
 - selecione o repositorio github >> projeto >> branch >> next 
-![](digital-projeto.png)
+![](assets/digital-projeto.png)
 - caso não aparece é o mesmo problema da vercel tem autorizar
 - no meu caso precisei escolher o diretorio por causa do devcontainer
 - defina suas variaveis de ambiente 
-![](digital-deploy.png){:height="150px" width="150px"}
+![](assets/digital-deploy.png){:height="150px" width="150px"}
 bom espero ter ajudado vocês bom trabalho
 
 - pacalexandre@gmail.com
