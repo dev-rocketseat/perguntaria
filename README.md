@@ -12,6 +12,7 @@ Trilha 2 ReactJS projeto LetMeAsk
 - anotações Notion
 - ver o design Figma
 - Icones e ideias de css tailwindcss.com (vou tentar utilizar essa biblioteca junto)
+
 ### Ambiente:
 - Linux mint 20 
 - Docker CE version 20.10.6, build 370c289
