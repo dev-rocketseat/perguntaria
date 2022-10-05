@@ -1,5 +1,8 @@
 ![](assets/digital-letmeask.png)
 
+  
+oi
+
 # Create React App NLW - Rocketseat - com Diego Fernandes 
 [https://github.com/rocketseat-content](https://github.com/rocketseat-content)
 Meu nome é Paulo Alexandre sou de denvolvedor Mumps/Java/Python/ e agora React :D ...
